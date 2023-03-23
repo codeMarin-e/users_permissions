@@ -1,0 +1,30 @@
+{
+    "name": "marinar/users_permissions",
+    "description": "Users permissions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin Ivanov",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\UsersPermissions\\": "src/"
+        }
+    },
+
+    "require": {
+        "marinar/users": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": false,
+            "plugin": false,
+            "addon_to": [
+                "marinar/users"
+            ]
+        }
+    }
+}
